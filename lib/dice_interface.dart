@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class DiceInterface extends StatefulWidget {
@@ -32,12 +31,13 @@ class _DiceRolls extends State<DiceInterface> {
         ),
         TextButton(
           style: TextButton.styleFrom(
-              foregroundColor: Colors.white,
-              textStyle: const TextStyle(fontSize: 25)),
+            foregroundColor: Colors.white,
+            textStyle: const TextStyle(fontSize: 25),
+          ),
           onPressed: onPressed,
           child: const Text('Roll The Dice'),
         )
-      ],
+      ], // column children
     );
   }
 }

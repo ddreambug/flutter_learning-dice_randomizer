@@ -12,11 +12,18 @@ class GradientBackground extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          gradient: LinearGradient(
-              colors: [lower, upper],
-              begin: startAlignment,
-              end: endAlignment)),
-      child: const Center(child: DiceInterface()),
+        gradient: LinearGradient(
+          colors: [
+            lower,
+            upper,
+          ],
+          begin: startAlignment,
+          end: endAlignment,
+        ),
+      ),
+      child: const Center(
+        child: DiceInterface(),
+      ),
     );
   }
 }
