@@ -1,16 +1,14 @@
 # dice_randomizer
 
-A new Flutter project.
+Flutter basic fundamental learning.
+this will result in app that can random the dice everytime button is pressed
+![image](https://github.com/ddreambug/dice_randomizer/assets/86515936/32a7e274-1a9f-4687-8da1-ba693ba8737d)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## in this section i learn:
+- Stateless / Statefull class
+- Widget Tree
+- dart / flutter application run procedure
+- importing asset and use that asset
+- positional & named argument
+- working button and its function
