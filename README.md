@@ -2,7 +2,8 @@
 
 Flutter basic fundamental learning.
 this will result in app that can random the dice everytime button is pressed
-![image](https://github.com/ddreambug/dice_randomizer/assets/86515936/32a7e274-1a9f-4687-8da1-ba693ba8737d)
+![image](https://github.com/ddreambug/dice_randomizer/assets/86515936/ff275f45-0c0b-453a-b0e8-d55f774db7db)
+
 
 
 ## in this section i learn:
