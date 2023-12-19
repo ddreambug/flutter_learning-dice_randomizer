@@ -16,7 +16,7 @@ class GradientBackground extends StatelessWidget {
               colors: [lower, upper],
               begin: startAlignment,
               end: endAlignment)),
-      child: Center(child: DiceInterface()),
+      child: const Center(child: DiceInterface()),
     );
   }
 }

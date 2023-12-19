@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class DiceInterface extends StatefulWidget {
-  DiceInterface({super.key});
+  const DiceInterface({super.key});
 
   @override
   State<DiceInterface> createState() {
