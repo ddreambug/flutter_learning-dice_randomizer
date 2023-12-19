@@ -36,8 +36,8 @@ class _DiceRolls extends State<DiceInterface> {
           ),
           onPressed: onPressed,
           child: const Text('Roll The Dice'),
-        )
-      ], // column children
-    );
+        ) //TextButton
+      ], // columnChildren
+    ); //Column
   }
 }

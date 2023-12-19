@@ -8,8 +8,8 @@ void main() {
         body: GradientBackground(
           Colors.white,
           Colors.blue,
-        ),
-      ),
-    ),
+        ), //GradientBackground
+      ), //Scaffold
+    ), //MaterialApp
   );
 }

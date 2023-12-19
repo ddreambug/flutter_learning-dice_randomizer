@@ -19,11 +19,11 @@ class GradientBackground extends StatelessWidget {
           ],
           begin: startAlignment,
           end: endAlignment,
-        ),
-      ),
+        ), //LinearGradient
+      ), //BoxDecoration
       child: const Center(
         child: DiceInterface(),
-      ),
-    );
+      ), //Center
+    ); //Container
   }
 }
