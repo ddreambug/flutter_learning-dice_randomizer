@@ -1,20 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:dice_randomizer/gradient_background.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: Scaffold(
-        body: Container(
-          decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                  colors: [Colors.white, Colors.blue],
-                  begin: Alignment.bottomCenter,
-                  end: Alignment.topCenter)),
-          child: Center(
-            child: Text('here will be images'),
-          ),
-        ),
-      ),
+    const MaterialApp(
+      home: Scaffold(body: GradientBackground(Colors.white, Colors.blue)),
     ),
   );
 }
